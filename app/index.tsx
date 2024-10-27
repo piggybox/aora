@@ -7,8 +7,8 @@ export default function Index() {
     <View className="flex-1 items-center justify-center bg-white">
       <Text className="text-3xl font-pblack">Hello Aora!</Text>
       <StatusBar style="auto" />
-      <Link href="/profile" style={{ color: 'blue' }}>
-        Go to Profile
+      <Link href="/home" style={{ color: 'blue' }}>
+        Home
       </Link>
     </View>
   );
